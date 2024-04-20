@@ -179,6 +179,15 @@ footer {
     height: 30px;
     border-radius: 10px;
     cursor: pointer;
+    border: none;
+    box-shadow: 1px 1px 3px rgb(153, 150, 150);
+  }
+
+  .tog {
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 
   .Started {
@@ -212,11 +221,39 @@ footer {
 .slide img {
     width: 20%;
     height: 20%;
+    margin-top: 20px;
     margin-left: 40%;
 }
-  .slide {
-    background-color: red;
-  }
+
+.section4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7vh;
+}
+
+.slide div .anisha {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: font6;
+}
+
+.slide span {
+    width: 84%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.slide div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
   .jor {
     width: 100%;
