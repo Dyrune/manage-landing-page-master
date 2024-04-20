@@ -28,21 +28,30 @@
     </style>
   </head>
   <body>
-    <section class="section1">
-      <img src="/images/logo.svg" alt="" />
-      <div>
+    <div class="back" style="display: none;"></div>
+    <img class="pattern" src="/images/bg-tablet-pattern.svg" alt="">
+   
+    <div class="tags" style="display: none;">
         <span>Pricing</span>
         <span>Product</span>
         <span>About Us</span>
         <span>Careers</span>
         <span>Community</span>
       </div>
+   
+    <section class="section1">
+      <img class="logo" src="/images/logo.svg" alt="" />
+     
       <button>Get Started</button>
+      <div class="tagopen">
+        <img class="hb" src="/images/icon-hamburger.svg" alt="">
+        <img class="cluz" style="display: none;"src="/images/icon-close.svg" alt="">
+      </div>
     </section>
     <section class="section2">
       <div>
-        <span> Bring everyone together to build better products.</span>
-        <span
+        <span class="bring"> Bring everyone together to build better products.</span>
+        <span class="manage"
           >Manage makes it simple for software teams to plan day-to-day tasks
           while keeping the larger team goals in view.</span
         >
@@ -97,7 +106,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section class="section4">
       <span> What they’ve said</span>
       <div>
         <div>
@@ -138,7 +147,7 @@
       </div>
       <span>Get Started</span>
     </section>
-    <section>
+    <section class="section5">
       <span>
         Simplify how your team <br />
         works today.</span
@@ -164,5 +173,6 @@
         <span> Go Copyright 2020. All Rights Reserved</span>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>

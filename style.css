@@ -1,18 +1,133 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .section1 {
-    display: flex;
-    background-color: blue;
+  display: flex;
 }
 
 .section2 {
-    background-color: red;
-    display: flex;
+  display: flex;
 }
 
 .section3 {
-    background-color: green;
+  background-color: green;
+}
+
+.section4 {
+  background-color: yellow;
+}
+
+.section5 {
+  background-color: brown;
+}
+
+footer {
+  background-color: gold;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+    }
+  .pattern {
+    position: absolute;
+    width: 300px;
+    z-index: -1;
+    left: 27%;
+    bottom: 55vh;
+  }
+
+  .section1 button {
+    display: none;
+  }
+
+  .tags {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 50px;
+    box-shadow: 2px 2px 10px black;
+    height: 40vh;
+    position: fixed;
+    background-color: white;
+  }
+
+  .section1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15px 0px 15px;
+  }
+
+  .logo {
+    width: 100px;
+    height: 20px;
+  }
+
+  .tagopen img {
+    width: 20px;
+    cursor: pointer;
+    position: fixed;
+    right: 15px;
+  }
+
+  .section2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .section2 img {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5vh;
+  }
+  @font-face {
+    font-family: font1;
+    src: url(/font/CormorantGaramond-Regular.ttf);
+  }
+  @font-face {
+    font-family: font2;
+    src: url(/font/Pacifico-Regular.ttf);
+  }
+  @font-face {
+    font-family: font3;
+    src: url(/font/MPLUS1Code-VariableFont_wght.ttf);
+  }
+  @font-face {
+    font-family: font4;
+    src: url(/font/Jacquard24-Regular.ttf);
+  }
+  @font-face {
+    font-family: font5;
+    src: url(/font/Inconsolata-VariableFont_wdth\,wght.ttf);
+  }
+
+  .back {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(180, 178, 178, 0), rgba(0, 0, 0, 0.5));
+    box-sizing: border-box;
+  }
+  .bring {
+    font-size: 38px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    width: 80%;
+    color: rgb(1, 1, 65);
+    margin-left: 10%;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    display: flex;
+  }
+  .manage {
+    display: flex;
+    width: 75%;
+    margin-left: 12.5%;
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0;
+    margin-bottom: 10vh;
+    color: rgb(179, 176, 176);
+  }
 }
