@@ -259,21 +259,22 @@ footer {
 }
 
   .jor {
-    width: 100%;
+    width: 80%;
     position: relative;
     height: 40px;
+    margin-left: 20%;
     margin-top: 20px;
     background-color: rgb(245, 217, 238);
     display: flex;
-    border-radius: 20px;
+    border-radius: 20px 0px 0px 20px;
   }
 
   .dre {
-    width: 15%;
+    width: 20%;
     border-radius: 20px;
+    background-color: red;
     display: flex;
     justify-content: center;
-    background-color: rgb(248, 90, 33);
     align-items: center;
   }
 
