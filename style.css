@@ -157,13 +157,13 @@ footer {
   }
 
   button {
-    height: 40px;
+    height: 50px;
     background-color: orangered;
     color: white;
     font-family: font1;
     font-weight: bolder;
     letter-spacing: 1px;
-    width: 120px;
+    width: 140px;
     border: none;
     border-radius: 20px;
     justify-content: center;
