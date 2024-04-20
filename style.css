@@ -12,7 +12,8 @@
 }
 
 .section3 {
-  background-color: green;
+    display: flex;
+    flex-direction: column;
 }
 
 .section4 {
@@ -116,6 +117,10 @@ footer {
     font-family: font5;
     src: url(/font/Inconsolata-VariableFont_wdth\,wght.ttf);
   }
+  @font-face {
+    font-family: font6;
+    src: url(/font/Platypi-VariableFont_wght.ttf);
+  }
 
   .back {
     height: 100vh;
@@ -171,5 +176,72 @@ footer {
     margin-bottom: 10vh;
     display: flex;
     box-shadow: 1px 1px 5px black;
+  }
+
+  .whaat {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    color: rgb(1, 1, 65);
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  .jor {
+    width: 100%;
+    position: relative;
+    left: 10%;
+    height: 40px;
+    margin-top: 20px;
+    background-color: rgb(245, 217, 238);
+    display: flex;
+    border-radius: 20px;
+  }
+
+  .dre {
+    width: 15%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(248, 90, 33);
+    align-items: center;
+  }
+
+  .dr {
+    width: 80%;
+    margin-left: 15px;
+    align-items: center;
+    display: flex;
+  }
+
+  .numb, .ev {
+    display: none;
+  }
+
+  .managee {
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0;
+    margin-bottom: 2vh;
+    color: rgb(161, 159, 159);
+  }
+
+  .mamaa {
+    display: flex;
+    width: 95%;
+    font-size: 14px;
+    margin-left: 3%;
+    text-align: start;
+    font-family: font3;
+    letter-spacing: 0;
+    margin-top: 10px;
+    margin-bottom: 2vh;
+    color: rgb(161, 159, 159);
   }
 }
