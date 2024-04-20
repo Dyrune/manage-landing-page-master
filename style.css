@@ -170,5 +170,6 @@ footer {
     align-items: center;
     margin-bottom: 10vh;
     display: flex;
+    box-shadow: 1px 1px 5px black;
   }
 }
