@@ -10,6 +10,19 @@
 .section2 {
   display: flex;
 }
+.slider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slide {
+  width: 100%;
+  display: none;
+}
+
+.active {
+  display: block;
+}
 
 .section3 {
     display: flex;
@@ -17,7 +30,6 @@
 }
 
 .section4 {
-  background-color: yellow;
 }
 
 .section5 {
@@ -156,12 +168,20 @@ footer {
     flex-direction: column;
   }
 
-  button:hover {
+  .Started:hover {
     cursor: pointer;
     color: black;
   }
 
-  button {
+  .prev-btn,
+  .next-btn {
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .Started {
     height: 50px;
     background-color: rgb(248, 90, 33);
     color: white;
@@ -188,6 +208,14 @@ footer {
     color: rgb(1, 1, 65);
     margin-bottom: 20px;
     display: block;
+  }
+.slide img {
+    width: 20%;
+    height: 20%;
+    margin-left: 40%;
+}
+  .slide {
+    background-color: red;
   }
 
   .jor {
@@ -231,16 +259,16 @@ footer {
     margin-bottom: 2vh;
     color: rgb(161, 159, 159);
   }
-
   .mamaa {
     display: flex;
     width: 95%;
     font-size: 14px;
     margin-left: 3%;
     text-align: start;
+    margin-bottom: 10px;
     font-family: font3;
     letter-spacing: 0;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 2vh;
     color: rgb(161, 159, 159);
   }
