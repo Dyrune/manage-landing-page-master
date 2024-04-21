@@ -7,9 +7,6 @@
   display: flex;
 }
 
-.section2 {
-  display: flex;
-}
 .slider {
   width: 100%;
   overflow: hidden;
@@ -29,9 +26,43 @@
     flex-direction: column;
 }
 
+@font-face {
+  font-family: font1;
+  src: url(/font/CormorantGaramond-Regular.ttf);
+}
+
+@font-face {
+  font-family: font2;
+  src: url(/font/Pacifico-Regular.ttf);
+}
+
+@font-face {
+  font-family: font3;
+  src: url(/font/MPLUS1Code-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: font4;
+  src: url(/font/Jacquard24-Regular.ttf);
+}
+
+@font-face {
+  font-family: font5;
+  src: url(/font/Inconsolata-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+  font-family: font6;
+  src: url(/font/Platypi-VariableFont_wght.ttf);
+}
+
 @media screen and (max-width: 600px) {
     body {
         overflow-x: hidden;
+    }
+
+    .tagss {
+      display: none;
     }
   .pattern {
     position: absolute;
@@ -55,7 +86,7 @@
   }
 
   .tags {
-    display: flex;
+    display: none;
     justify-content: space-evenly;
     align-items: center;
     font-family: font3;
@@ -75,6 +106,7 @@
     display: flex;
     justify-content: space-between;
     padding: 20px 15px 0px 15px;
+    margin: 0;
   }
 
   .logo {
@@ -82,42 +114,50 @@
     height: 20px;
   }
 
+  .tagopen {
+    display: flex;
+  }
+
   .tagopen img {
     width: 20px;
     cursor: pointer;
     position: fixed;
     right: 15px;
+    top: 20px;
   }
 
   .section2 {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column-reverse;
   }
-  .section2 img {
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 5vh;
-  }
+
   @font-face {
     font-family: font1;
     src: url(/font/CormorantGaramond-Regular.ttf);
   }
+
   @font-face {
     font-family: font2;
     src: url(/font/Pacifico-Regular.ttf);
   }
+
   @font-face {
     font-family: font3;
     src: url(/font/MPLUS1Code-VariableFont_wght.ttf);
   }
+
   @font-face {
     font-family: font4;
     src: url(/font/Jacquard24-Regular.ttf);
   }
+
   @font-face {
     font-family: font5;
     src: url(/font/Inconsolata-VariableFont_wdth\,wght.ttf);
   }
+
   @font-face {
     font-family: font6;
     src: url(/font/Platypi-VariableFont_wght.ttf);
@@ -130,6 +170,7 @@
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(180, 178, 178, 0), rgba(0, 0, 0, 0.5));
     box-sizing: border-box;
   }
+
   .bring {
     font-size: 38px;
     margin-bottom: 20px;
@@ -139,6 +180,7 @@
     text-align: center;
     display: flex;
   }
+
   .manage {
     display: flex;
     width: 90%;
@@ -209,6 +251,7 @@
     margin-bottom: 20px;
     display: block;
   }
+
 .slide img {
     width: 20%;
     height: 20%;
@@ -313,6 +356,12 @@
     color: rgb(161, 159, 159);
   }
 
+  .illul img {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3vh;
+  }
+
   .section5 {
     height: 50vh;
     background-color: rgb(248, 90, 33);
@@ -392,4 +441,210 @@
     display: flex;
     flex-direction: column;
   }
+}
+
+
+@media screen and (min-width: 600px) {
+  
+.tags {
+  display: none;
+}
+
+.section1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pattern {
+  display: none;
+}
+
+.tagss {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.tagss span {
+  color: black;
+  font-weight: bolder;
+  font-family: font3;
+  background-color: transparent;
+}
+
+.tagss span:hover {
+  cursor: pointer;
+  color: gray;
+  text-shadow: 1px 1px 3px grey;
+}
+
+.illul {
+  margin-top: 10vh;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.section2 .illul img {
+  width: 100%;
+  height:50%;
+}
+
+.section2 {
+  height: 80vh;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tagopen {
+  display: none;
+}
+
+.Started {
+  height: 30px;
+  background-color: rgb(248, 90, 33);
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 1px;
+  width: 90px;
+  border: none;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 12px;
+  box-shadow: 1px 1px 5px black;
+}
+
+.sc2 {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 100%;
+  align-items: start;
+}
+
+.Started:hover {
+  color: rgb(248, 90, 33);
+  background-color: white;
+  cursor: pointer;
+}
+
+.bring {
+  font-size: 52px;
+  font-weight: bold;
+  color: rgb(1, 1, 65);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  display: flex;
+  text-align: start;
+  margin: 0;
+  padding: 0;
+}
+
+.manage {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 60%;
+  text-align: start;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 0;
+  color: rgb(179, 176, 176);
+}
+
+.managee {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 80%;
+  text-align: start;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 0;
+  color: rgb(179, 176, 176);
+}
+
+.numb, .ev {
+  display: none;
+}
+
+.whaat {
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  width: 70%;
+  color: rgb(1, 1, 65);
+  margin-bottom: 20px;
+  display: block;
+}
+
+.section3 {
+  display: flex;
+  flex-direction: row;
+  height: 70vh;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.ha {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  width: 50%;
+  justify-content: center;
+}
+
+.gre {
+  width: 50%;
+}
+
+.jor {
+  width: 80%;
+  z-index: -1;
+  position: relative;
+  height: 40px;
+  margin-top: 20px;
+  display: flex;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.dre {
+  width: 20%;
+  border-radius: 20px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dr {
+  width: 80%;
+  margin-left: 15px;
+  align-items: center;
+  display: flex;
+}
+
+.mamaa {
+  padding-left: 16%;
+  display: flex;
+  width: 95%;
+  font-size: 14px;
+  margin-left: 3%;
+  text-align: start;
+  margin-bottom: 10px;
+  font-family: font3;
+  letter-spacing: 0;
+  margin-top: 20px;
+  margin-bottom: 2vh;
+  color: rgb(161, 159, 159);
+}
 }
