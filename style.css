@@ -708,4 +708,108 @@
   position: relative;
   bottom: 22px;
 }
+
+.section5 {
+  height: 25vh;
+  background-color: rgb(248, 90, 33);
+  display: flex;
+}
+
+.dde {
+  width: 50%;
+  display: flex;
+  text-align: start;
+  font-size: 28px;
+  justify-content: center;
+  align-items: center;
+}
+
+.drere {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gry {
+  height: 30vh;
+  background-color: rgb(0, 0, 24);
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.jrr {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+}
+
+.ddse {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.twof {
+  height: 100%;
+  display: flex;
+  width: 30%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.oneff, .twoff {
+  width: 50%;
+  height: 80%;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-ic {
+  width: 30%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hgr {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.li {
+  margin-top: 30px;
+}
+
+.ddse button {
+  height: 30px;
+  background-color: rgb(248, 90, 33);
+  font-weight: bolder;
+  cursor: pointer;
+  font-family: font3;
+  width: 20%;
+  border-radius: 15px;
+  border: none;
+}
+
+input {
+  border: none;
+  border-radius: 20px;
+  height: 30px;
+  padding-left: 30px;
+  width: 60%;
+}
+
 }
