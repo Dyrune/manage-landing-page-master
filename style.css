@@ -163,6 +163,9 @@
     src: url(/font/Platypi-VariableFont_wght.ttf);
   }
 
+  #desktop {
+    display: none;
+  }
   .back {
     height: 100vh;
     width: 100%;
@@ -441,6 +444,10 @@
     display: flex;
     flex-direction: column;
   }
+
+  #dessktop {
+    display: none;
+  }
 }
 
 
@@ -590,7 +597,6 @@
 .section3 {
   display: flex;
   flex-direction: row;
-  height: 70vh;
   width: 80%;
   margin-left: 10%;
 }
@@ -605,6 +611,9 @@
 
 .gre {
   width: 50%;
+}
+#mobile {
+  display: none;
 }
 
 .jor {
@@ -646,5 +655,57 @@
   margin-top: 20px;
   margin-bottom: 2vh;
   color: rgb(161, 159, 159);
+}
+
+
+#dessktop {
+  margin-bottom: 10vh;
+  margin-top: 7vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  justify-content: space-between;
+}
+
+.managge {
+  display: flex;
+  width: 90%;
+  font-family: font3;
+  margin-left: 5%;
+  text-align: center;
+  letter-spacing: 0;
+  margin-bottom: 2vh;
+  font-size: 14px;
+}
+
+.sliderr {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.slidee {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 30vh;
+  background-color: rgba(241, 241, 252, 0.562);
+}
+
+.dd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dd img {
+  width: 60px;
+  position: relative;
+  bottom: 22px;
 }
 }
