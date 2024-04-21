@@ -248,6 +248,7 @@
 
   .jor {
     width: 80%;
+    z-index: -1;
     position: relative;
     height: 40px;
     margin-left: 20%;
